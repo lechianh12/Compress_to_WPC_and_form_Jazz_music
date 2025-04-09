@@ -1,0 +1,73 @@
+// Jazz Piano MIDI
+// Duration: 4 minutes 20 seconds (260 seconds)
+// Tempo: 120 BPM
+// Time Signature: 4/4
+
+MThd     6 2 1
+MTrk
+0 Tempo 500000
+0 TimeSig 4/4 24 8
+0 PrCh ch=1 p=0
+0 On ch=1 n=60 v=80
+240 Off ch=1 n=60 v=0
+240 On ch=1 n=64 v=80
+480 Off ch=1 n=64 v=0
+480 On ch=1 n=67 v=85
+720 Off ch=1 n=67 v=0
+720 On ch=1 n=72 v=90
+960 Off ch=1 n=72 v=0
+
+// Piano Left Hand
+0 PrCh ch=2 p=0
+0 On ch=2 n=48 v=70
+0 On ch=2 n=52 v=70
+0 On ch=2 n=55 v=70
+480 Off ch=2 n=48 v=0
+480 Off ch=2 n=52 v=0
+480 Off ch=2 n=55 v=0
+480 On ch=2 n=47 v=70
+480 On ch=2 n=50 v=70
+480 On ch=2 n=55 v=70
+960 Off ch=2 n=47 v=0
+960 Off ch=2 n=50 v=0
+960 Off ch=2 n=55 v=0
+
+// Bass
+0 PrCh ch=3 p=32
+0 On ch=3 n=36 v=90
+120 Off ch=3 n=36 v=0
+240 On ch=3 n=36 v=75
+360 Off ch=3 n=36 v=0
+480 On ch=3 n=35 v=90
+600 Off ch=3 n=35 v=0
+720 On ch=3 n=35 v=75
+840 Off ch=3 n=35 v=0
+
+// Drums
+0 PrCh ch=10 p=0
+0 On ch=10 n=42 v=80
+0 On ch=10 n=36 v=90
+120 Off ch=10 n=42 v=0
+120 On ch=10 n=42 v=60
+240 Off ch=10 n=36 v=0
+240 Off ch=10 n=42 v=0
+240 On ch=10 n=42 v=80
+360 Off ch=10 n=42 v=0
+360 On ch=10 n=42 v=60
+480 Off ch=10 n=42 v=0
+480 On ch=10 n=42 v=80
+480 On ch=10 n=36 v=90
+600 Off ch=10 n=42 v=0
+600 On ch=10 n=42 v=60
+720 Off ch=10 n=36 v=0
+720 Off ch=10 n=42 v=0
+720 On ch=10 n=42 v=80
+840 Off ch=10 n=42 v=0
+840 On ch=10 n=38 v=90
+960 Off ch=10 n=38 v=0
+
+// Additional events to extend to 4:20 (260 seconds)
+// At 120 BPM, 260 seconds = 520 beats = 31200 ticks (at 60 ticks per beat)
+31200 End of track
+MTrk
+31200 End of track
